@@ -36,8 +36,8 @@ jobs:
 
     - name: Config git
       run: |
-        git config --global user.email "ci-build@aemforms"
-        git config --global user.name "ci-build"
+        git config --global user.email "eamit24@gmail.com"
+        git config --global user.name "eamit24"
       env:
         GITHUB_TOKEN: ${{ secrets.ADOBE_GH_TOKEN }}
         GH_TOKEN: ${{ secrets.ADOBE_GH_TOKEN }}
